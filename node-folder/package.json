@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemod server"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +16,8 @@
     "mongodb": "^4.13.0",
     "mongoose": "^6.9.0",
     "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemod": "^3.0.6"
   }
 }
